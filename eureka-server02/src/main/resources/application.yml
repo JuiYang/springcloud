@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: eureka-server
+  # Eureka权限认证
+  security:
+    user:
+      name: leeyu
+      password: root
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  #应用为注册中心，表示不向注册中心注册自己
+  client:
+    register-with-eureka: true
+    # 不需要去检索服务
+    fetch-registry: false
+    # 向Eureka集群中server2 注册中心中进行注册
+    service-url:
+      defaultZone: http://leeyu:root@127.0.0.1:8762/eureka/
+  # 关闭自我保护模式，(自我保护模式会不再删除服务注册表中的数据), 节点下线后，会自动清除服务信息
+  server:
+    enable-self-preservation: false
+    # 默认为60000毫秒
+    eviction-interval-timer-in-ms: 5000
+
+  # 启动集群时，手动指定server.port: 8761,8762, 修改要注册服务的port
