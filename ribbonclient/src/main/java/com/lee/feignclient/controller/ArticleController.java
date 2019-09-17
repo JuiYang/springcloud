@@ -23,13 +23,13 @@ public class ArticleController {
     private HouseRemoteClient houseRemoteClient;
 
     // 传统的远程服务访问方式
-    @GetMapping("/hello")
+    @GetMapping("/hello1")
     public String callHello() {
         return restTemplate.getForObject("http://localhost:8888/user/hello", String.class);
     }
 
     // 采用Eureka(RestTemplate)服务名称的访问方式
-    @GetMapping("/hello1")
+    @GetMapping("/hello")
     public String callHello1() {
         return restTemplate.getForObject("http://eureka-client-user-service/user/hello", String.class);
     }

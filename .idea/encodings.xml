@@ -2,15 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/clientserver" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eureka-server01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server02/src/main/resources/application.properties" charset="GBK" />
     <file url="file://$PROJECT_DIR$/feignclient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/helloworld" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrix" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ribbon-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbonclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
   </component>
 </project>
