@@ -238,70 +238,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ZuulApplication">
-    <configuration name="EurekaServer01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tcl.lee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tcl.lee.EurekaServer02" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <envs>
-        <env name="server.port" value="8761" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServer02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tcl.lee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tcl.lee.EurekaServer02" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <envs>
-        <env name="server.port" value="8762" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FeignClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="feignclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lee.feignclient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.feignclient.FeignClientApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="helloworld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tcl.lee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tcl.lee.LeeApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <envs>
-        <env name="server.port" value="8888" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LeeApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="helloworld" />
       <extension name="coverage">
@@ -328,22 +264,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.feignclient.RibbonClientApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="turbine" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.turbine.TurbineApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zuul" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tcl.zuul.ZuulApplication" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="E:\java\jdk\jre" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
