@@ -12,6 +12,7 @@
         <module name="ribbonclient" />
         <module name="springcloud" />
         <module name="feignclient" />
+        <module name="springconfig" />
         <module name="eureka-server02" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="ribbon-client" target="1.8" />
       <module name="ribbonclient" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="springconfig" target="1.8" />
       <module name="turbine" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
@@ -42,6 +44,7 @@
       <module name="ribbon-client" options="-parameters" />
       <module name="ribbonclient" options="-parameters" />
       <module name="springcloud" options="-parameters" />
+      <module name="springconfig" options="" />
       <module name="turbine" options="-parameters" />
       <module name="zuul" options="" />
     </option>
