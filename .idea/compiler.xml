@@ -43,7 +43,7 @@
       <module name="ribbonclient" options="-parameters" />
       <module name="springcloud" options="-parameters" />
       <module name="turbine" options="-parameters" />
-      <module name="zuul" options="-parameters" />
+      <module name="zuul" options="" />
     </option>
   </component>
 </project>
